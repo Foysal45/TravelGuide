@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:gravity="center"
+            android:text="@string/settings"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.btb.explorebangladesh.presentation.components.CollapsibleCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        app:expanded="false"
+        app:title="@string/language">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/languageBangla"
+                style="@style/Widget.settings.BTB.Chip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:checked="true"
+                android:layoutDirection="rtl"
+                android:text="@string/bangla"
+                app:chipBackgroundColor="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/languageEnglish"
+                style="@style/Widget.settings.BTB.Chip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:layoutDirection="rtl"
+                android:text="@string/english"
+                app:chipBackgroundColor="@android:color/transparent" />
+
+        </com.google.android.material.chip.ChipGroup>
+    </com.btb.explorebangladesh.presentation.components.CollapsibleCardView>
+
+
+    <com.btb.explorebangladesh.presentation.components.CollapsibleCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        app:expanded="false"
+        app:title="@string/theme">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/defaultTheme"
+                style="@style/Widget.settings.BTB.Chip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:checked="true"
+                android:layoutDirection="rtl"
+                android:text="@string/system_default"
+                app:chipBackgroundColor="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/lightTheme"
+                style="@style/Widget.settings.BTB.Chip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:layoutDirection="rtl"
+                android:text="@string/light"
+                app:chipBackgroundColor="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/darkTheme"
+                style="@style/Widget.settings.BTB.Chip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:layoutDirection="rtl"
+                android:text="@string/dark"
+                app:chipBackgroundColor="@android:color/transparent" />
+        </com.google.android.material.chip.ChipGroup>
+    </com.btb.explorebangladesh.presentation.components.CollapsibleCardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

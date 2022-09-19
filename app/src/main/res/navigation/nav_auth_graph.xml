@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_auth_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.btb.explorebangladesh.presentation.fragments.auth.login.LoginFragment"
+        android:label="@string/login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.btb.explorebangladesh.presentation.fragments.auth.register.RegisterFragment"
+        android:label="@string/sign_up">
+        <action
+            android:id="@+id/action_registerFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.btb.explorebangladesh.presentation.fragments.auth.forgot.ForgotPasswordFragment"
+        android:label="@string/forgot_password">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.btb.explorebangladesh.presentation.fragments.web.WebViewFragment"
+        android:label="@string/terms">
+        <argument
+            android:name="page"
+            app:argType="com.btb.explorebangladesh.StaticPage" />
+    </fragment>
+</navigation>

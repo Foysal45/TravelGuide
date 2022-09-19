@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:layout_marginBottom="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_6sdp"
+    app:cardElevation="@dimen/_6sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivArticleImage"
+            android:layout_width="@dimen/_82sdp"
+            android:layout_height="@dimen/_82sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.Round5"
+            tools:srcCompat="@drawable/img_ahasan_monjil" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTags"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="@color/colorBlue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivArticleImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="#Haor #Water #River #Nature" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvPlaceName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/colorGray"
+            app:layout_constraintEnd_toEndOf="@+id/tvTags"
+            app:layout_constraintStart_toStartOf="@+id/tvTags"
+            app:layout_constraintTop_toBottomOf="@+id/tvTags"
+            tools:text="Visit Magnificant Tanguar Haor" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvPlaceType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="@color/colorGray"
+            app:layout_constraintEnd_toEndOf="@+id/tvPlaceName"
+            app:layout_constraintStart_toStartOf="@+id/tvPlaceName"
+            app:layout_constraintTop_toBottomOf="@+id/tvPlaceName"
+            tools:text="Landscape" />
+
+        <RatingBar
+            android:id="@+id/rbRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginBottom="4dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="2"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:stepSize="1"
+            android:theme="@style/Theme.BTB.RatingBar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvPlaceType"
+            app:layout_constraintTop_toBottomOf="@+id/tvPlaceType" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

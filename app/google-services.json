@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734529306385",
+    "project_id": "explore-bangladesh-c52d0",
+    "storage_bucket": "explore-bangladesh-c52d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734529306385:android:1e11bab026b171901096b0",
+        "android_client_info": {
+          "package_name": "com.btb.explorebangladesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734529306385-ea2hls05iaoiv88t9u6odgddcrj3rtop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdnWzKFagfsJGxWG9pCSqFkGM3Zg1bFc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734529306385-ea2hls05iaoiv88t9u6odgddcrj3rtop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

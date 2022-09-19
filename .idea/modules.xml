@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BTB.iml" filepath="$PROJECT_DIR$/.idea/modules/BTB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BTB.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BTB.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BTB.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BTB.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BTB.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BTB.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BTB.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BTB.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BTB.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/BTB.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BTB.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BTB.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BTB.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BTB.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.iml" filepath="$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/extensions/BTB.extensions.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/style/BTB.style.iml" filepath="$PROJECT_DIR$/.idea/modules/style/BTB.style.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/style/BTB.style.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/style/BTB.style.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/style/BTB.style.main.iml" filepath="$PROJECT_DIR$/.idea/modules/style/BTB.style.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/style/BTB.style.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/style/BTB.style.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/BTB.utilities.unitTest.iml" />
+    </modules>
+  </component>
+</project>

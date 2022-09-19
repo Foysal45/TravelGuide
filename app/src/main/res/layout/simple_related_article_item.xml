@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_margin="@dimen/_8sdp"
+    android:translationZ="@dimen/_3sdp"
+    android:visibility="visible"
+    app:strokeColor="@color/white"
+    app:strokeWidth="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="@dimen/_3sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivArticleImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.Round5"
+            tools:srcCompat="@drawable/img_national_monument" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvArticleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tvArticleAddress"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:lines="1"
+            android:padding="0dp"
+            android:shadowColor="@color/colorBlack"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_9sdp"
+            tools:text="National Monument" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvArticleAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:lines="1"
+            android:padding="0dp"
+            android:shadowColor="@color/colorBlack"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_7sdp"
+            tools:text="Savar, Dhaka, Bangladesh" />
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

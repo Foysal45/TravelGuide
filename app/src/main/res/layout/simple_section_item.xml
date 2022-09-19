@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="@dimen/_12sdp"
+        tools:text="Hello man whats up?" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingMultiplier="1.25"
+        android:textColor="#7E7E7E"
+        android:textSize="@dimen/_10sdp"
+        tools:text="with the middle one being the tallest. The highest point of the monument is 150 feet. There is an artificial lake, and several mass graves in front of the main memorial. The architect has used concrete for the monument while all the other structures and pavements of the complex are made of red bricks. It symbolises that it is built with concrete but made of blood. Once one enters the main complex through the main entrance, she or he can see the monument axially but to reach it one has to walk through different ups and downs of the pavements and cross the artificial lake by a bridge. All these represent the struggle for independence, our freedom. The most moving sight of the complex is the several graves of the martyred freedom fighters: close to the towers. Standing in front of the graves, we bow down our heads in respect, as the towers soar up symbolising the loftiness of the spirits of our heroes: the freedom fighters. " />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:itemCount="4"
+        android:nestedScrollingEnabled="false"
+        tools:listitem="@layout/simple_image_grid_item" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

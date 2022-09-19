@@ -1,0 +1,29 @@
+package com.btb.explorebangladesh.presentation.fragments.base
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.btb.explorebangladesh.UiText
+
+abstract class BaseViewModel : ViewModel() {
+
+
+    companion object {
+        const val TAG = "BaseViewModel"
+    }
+
+    protected val _isLoading = MutableLiveData<Boolean>()
+    val isLoading: LiveData<Boolean>
+        get() = _isLoading
+
+    protected val _error = MutableLiveData<UiText?>()
+    val error: LiveData<UiText?>
+        get() = _error
+
+
+    fun updateLoading(isLoading: Boolean) {
+        _isLoading.postValue(isLoading)
+    }
+
+
+}
