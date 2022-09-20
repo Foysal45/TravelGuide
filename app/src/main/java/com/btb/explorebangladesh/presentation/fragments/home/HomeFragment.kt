@@ -76,5 +76,8 @@ class HomeFragment : BaseFragment<MainViewModel, FragmentHomeBinding>(
             }
         }
     }
-
+    override fun onResume() {
+        super.onResume()
+        this.activity?.title = ""
+    }
 }

@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/11ff41c503bf814203978244b71d4212/transformed/jetified-powerspinner-1.2.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/11ff41c503bf814203978244b71d4212/transformed/jetified-powerspinner-1.2.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/11ff41c503bf814203978244b71d4212/transformed/jetified-powerspinner-1.2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/72f0e44e3893a58cf82258f5ed779ab7/transformed/jetified-powerspinner-1.2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/72f0e44e3893a58cf82258f5ed779ab7/transformed/jetified-powerspinner-1.2.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/72f0e44e3893a58cf82258f5ed779ab7/transformed/jetified-powerspinner-1.2.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/powerspinner/1.2.3/484a25db7511552bd9ca0dd269e89988a6a3a9a9/powerspinner-1.2.3-javadoc.jar!/" />

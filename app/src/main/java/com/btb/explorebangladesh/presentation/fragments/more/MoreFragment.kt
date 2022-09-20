@@ -3,18 +3,19 @@ package com.btb.explorebangladesh.presentation.fragments.more
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Toolbar
 import androidx.core.os.bundleOf
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.btb.explorebangladesh.R
 import com.btb.explorebangladesh.StaticPage
-import com.btb.explorebangladesh.activity.startAndFinish
 import com.btb.explorebangladesh.databinding.FragmentMoreBinding
 import com.btb.explorebangladesh.presentation.activities.auth.AuthActivity
 import com.btb.explorebangladesh.presentation.activities.main.MainViewModel
 import com.btb.explorebangladesh.presentation.fragments.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
+
 
 @AndroidEntryPoint
 class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
@@ -93,6 +94,11 @@ class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
         requireActivity().startActivity(
             Intent(requireActivity(), AuthActivity::class.java)
         )
+    }
+
+    override fun onResume() {
+        super.onResume()
+        this.activity?.title = getString(R.string.more)
     }
 
 }

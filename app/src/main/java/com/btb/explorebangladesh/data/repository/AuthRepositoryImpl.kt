@@ -43,7 +43,6 @@ class AuthRepositoryImpl(
 
     override fun refreshToken(body: LoginRequest) = dataSource.refreshToken(body)
 
-
     override suspend fun doRegistration(
         body: RegistrationRequest
     ) = when (val response = dataSource.doRegistration(body)) {

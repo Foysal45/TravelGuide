@@ -92,8 +92,6 @@
         <item name="itemIconTint">@color/bottom_nav_item_color</item>
     </style>
 
-
-
     <style name="Theme.BTB.RatingBar" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/colorGrey</item>
         <item name="colorControlActivated">@color/colorYellow</item>
@@ -122,5 +120,13 @@
         <item name="cornerSize">0dp</item>
     </style>
 
+    <style name="NoActionBar" >
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
 
 </resources>

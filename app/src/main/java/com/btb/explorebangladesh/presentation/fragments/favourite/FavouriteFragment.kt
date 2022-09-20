@@ -85,5 +85,9 @@ class FavouriteFragment : BaseFragment<FavouriteViewModel, FragmentFavouriteBind
             Intent(requireActivity(), AuthActivity::class.java)
         )
     }
+    override fun onResume() {
+        super.onResume()
+        this.activity?.title = getString(R.string.favourite)
+    }
 
 }

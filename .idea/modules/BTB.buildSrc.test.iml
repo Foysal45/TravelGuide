@@ -43,24 +43,24 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.31/ff5d99aecd328872494e8921b72bf6e3af97af3e/kotlin-stdlib-jdk8-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.31/1523fcd842a47da0820cea772b19c51056fec8a9/kotlin-reflect-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.fayard.refreshVersions/refreshVersions/0.40.1/14b9849cdd77a1b55914a7123b3912c95aa9967f/refreshVersions-0.40.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/7.2.1/51c17e0a7eea8eaaeb39b7e7a1e85a84867dcf2e/gradle-7.2.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/7.2.2/50b664cc081b526c2a2c771626ed7e89806b63d1/gradle-7.2.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.7.10/ea3ee595df31d338be8135ce1ea6f78f8836ebd3/kotlin-gradle-plugin-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.13.0/d6562d385049f35eb50403fa86bb11cce76b866a/javapoet-1.13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.31/77e0f2568912e45d26c31fd417a332458508acdf/kotlin-stdlib-jdk7-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.31/6628d61d0f5603568e72d2d5915d2c034b4f1c55/kotlin-stdlib-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.fayard.refreshVersions/refreshVersions-core/0.40.1/d3e065a316979caf2bcb4d4a4f36b67c6d77e5c8/refreshVersions-core-0.40.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/7.2.1/37e17c1fbf53d8aed49942725d20e60af7fbfe27/builder-7.2.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/7.2.1/35f0f5aa396d2a3daa0ab20221d200375784a2aa/builder-model-7.2.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/7.2.1/1c2fdf9606aadaa7f7c837db74b99fa781d84a8f/gradle-api-7.2.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/7.2.2/45bab7da1d5a144bb0a401d3d92dc91ee5e089d4/builder-7.2.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/7.2.2/4a03ee626adf07c3fdac9e5fd03d43ecb0d53da7/builder-model-7.2.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/7.2.2/ff773057b490c477db4e46adb8f002dff1bf0c9f/gradle-api-7.2.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.7.10/762b2bb7063c74bb564ed7a7523446a4e7252682/kotlin-gradle-plugin-model-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.7.10/3b38be7ed8f8c678b13991d5b3ec99c4908d3313/kotlin-gradle-plugin-api-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-core/1.7.10/8fc54e880cf9ea73396f2844a2d3aa76bdcbcfbb/kotlin-tooling-core-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/30.2.1/1756d0ad1b6a704a32f73a09f3fa1836243a1586/manifest-merger-30.2.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/zipflinger/7.2.1/3a0ab31aa56c06b9839bc081b30a2c8c6e6a89ac/zipflinger-7.2.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/7.2.1/735df93a1e8f80050ce1e23caf72edd493273970/apksig-7.2.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/7.2.1/dea3c50cf709649fccb03ed2f936901e7b8d1c8f/apkzlib-7.2.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/30.2.2/a67b1fd0f1e142d9f84af1923aa812f104bfb014/manifest-merger-30.2.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/zipflinger/7.2.2/3a0ab31aa56c06b9839bc081b30a2c8c6e6a89ac/zipflinger-7.2.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/7.2.2/735df93a1e8f80050ce1e23caf72edd493273970/apksig-7.2.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/7.2.2/dea3c50cf709649fccb03ed2f936901e7b8d1c8f/apkzlib-7.2.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.7.10/2f0fbe380f54a395d99e75558c21924ef262cc8e/kotlin-native-utils-1.7.10.jar</arg>
@@ -345,24 +345,24 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.5.31" level="project" />
     <orderEntry type="library" name="Gradle: de.fayard.refreshVersions:refreshVersions:0.40.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:gradle:7.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:gradle:7.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup:javapoet:1.13.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.31" level="project" />
     <orderEntry type="library" name="Gradle: de.fayard.refreshVersions:refreshVersions-core:0.40.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:builder:7.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:builder-model:7.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:gradle-api:7.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:builder:7.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:builder-model:7.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:gradle-api:7.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-tooling-core:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:manifest-merger:30.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android:zipflinger:7.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:apksig:7.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.tools.build:apkzlib:7.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:manifest-merger:30.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android:zipflinger:7.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:apksig:7.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.tools.build:apkzlib:7.2.2" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup:javawriter:2.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:9.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-native-utils:1.7.10" level="project" />
@@ -378,31 +378,31 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.lint:lint-model:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:sdk-common:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:sdklib:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:repository:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:builder-test-api:7.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.ddms:ddmlib:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:aaptcompiler:7.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:shared:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.databinding:databinding-compiler-common:7.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-retention-proto:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.lint:lint-model:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:sdk-common:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:sdklib:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:repository:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:builder-test-api:7.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.ddms:ddmlib:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:aaptcompiler:7.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:shared:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.databinding:databinding-compiler-common:7.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-retention-proto:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.dokka:dokka-core:1.4.32" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.layoutlib:layoutlib-api:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.layoutlib:layoutlib-api:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta09" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build.jetifier:jetifier-core:1.0.0-beta09" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:bundletool:1.8.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:aapt2-proto:7.2.1-7984345" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:crash:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.lint:lint-typedef-remover:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.databinding:databinding-common:7.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.databinding:baseLibrary:7.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-device-provider-ddmlib-proto:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-device-provider-gradle-proto:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-additional-test-output-proto:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-coverage-proto:30.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-result-listener-gradle-proto:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:aapt2-proto:7.2.2-7984345" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:crash:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.lint:lint-typedef-remover:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.databinding:databinding-common:7.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.databinding:baseLibrary:7.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-device-provider-ddmlib-proto:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-device-provider-gradle-proto:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-additional-test-output-proto:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-host-coverage-proto:30.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.utp:android-test-plugin-result-listener-gradle-proto:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.httpcomponents:httpmime:4.5.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.4" level="project" />
@@ -438,25 +438,25 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.7.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:common:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:common:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sf.kxml:kxml2:2.3.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:tracker:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:tracker:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.ow2.asm:asm-tree:9.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:protos:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools.analytics-library:protos:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.56" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android:signflinger:7.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android:signflinger:7.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: it.unimi.dsi:fastutil:8.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.googlecode.json-simple:json-simple:1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.intellij.deps:trove4j:1.0.20200330" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: xerces:xercesImpl:2.12.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:dvlib:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:dvlib:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-compress:1.20" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.jimfs:jimfs:1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:javax.activation:1.2.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:annotations:30.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.android.tools:annotations:30.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna-platform:5.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.11.1" level="project" />

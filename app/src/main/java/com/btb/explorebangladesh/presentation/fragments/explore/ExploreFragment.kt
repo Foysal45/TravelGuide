@@ -64,5 +64,10 @@ class ExploreFragment : BaseFragment<ExploreViewModel, FragmentExploreBinding>(
             }
         }
     }
+    override fun onResume() {
+        super.onResume()
+        this.activity?.title = getString(R.string.explore)
+    }
+
 
 }
