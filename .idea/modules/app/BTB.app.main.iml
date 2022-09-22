@@ -48,6 +48,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/cfebe08e8e632b2488c0a80d0dc18449/transformed/jetified-play-services-maps-18.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5da02f372ac9181b56383573cd75c949/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/45140579396f5154418bca550bde7b8b/transformed/jetified-play-services-auth-20.3.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/f013d8c437f847cf341310162a85b794/transformed/jetified-glide-4.12.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3c490bbb6b971fa1b445ac495564f6f0/transformed/jetified-firebase-auth-ktx-21.0.8-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d0c817976767d63cca9108fdd588e307/transformed/jetified-firebase-auth-21.0.8-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/76e5da8c1f8a59dab9518180572703f5/transformed/jetified-play-services-auth-api-phone-18.0.1-api.jar</arg>
@@ -69,6 +70,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/721dbad7dee97de40eed1e3b641efe86/transformed/jetified-activity-1.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/39e1aba4560cf68afb050e4b8a76ec4d/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/67fb719f29ca8ab2442e984a5cb666fa/transformed/jetified-lifecycle-livedata-ktx-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/6d1ca0f25d60db031a8fb1d5fef5df1d/transformed/jetified-compressor-3.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/74868a43a587e8b3ffc461da6048d6b9/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9b06099463557d3c9116ccb029e81b6b/transformed/jetified-kotlinx-coroutines-android-1.6.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a61bc73a4cda50e74b26d5508a35ef2b/transformed/jetified-adapter-rxjava2-2.9.0.jar</arg>
@@ -122,6 +124,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b6962d2a6dc13ac05077a838b7c6f116/transformed/jetified-collection-ktx-1.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/224ee79c79f21a19bdf1b90a66f82765/transformed/versionedparcelable-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.2.0/34dbc21d203cc4d4d623ac572a21acd4ccd716af/collection-1.2.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d64dd5202cbdb5720f76b99a048ae46e/transformed/jetified-gifdecoder-4.12.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6e05ffc76315d1280600eb03f65b0be1/transformed/core-runtime-2.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/40b317470a83ac31f86e862df8916a83/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
@@ -139,7 +142,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b930adb33118a328929c43e0ee2454ab/transformed/jetified-kotlin-android-extensions-runtime-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0075d2a7d10fb317febf487126f4c610/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0d4fc6a015c8b36cb32382377f656d6f/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/d247b7ce94454583ceb1d7d77172b458/transformed/jetified-annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/7a17601ea3e1ee99a9442ec724d1f867/transformed/jetified-timber-4.7.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/675737cca982a62e94457248a467e51b/transformed/jetified-annotations-16.0.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bfbd7dc0a1d189dcbce5d23c427a1af5/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/67728bf31a06d678a0a302eaebf62a96/transformed/jetified-listenablefuture-1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/db04e7437babe38d1f5eff93675e6dc5/transformed/jetified-startup-runtime-1.0.0-api.jar</arg>
@@ -153,6 +157,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4eb1b917bf7c7e1a606876fd2a9a0a2b/transformed/jetified-firebase-annotations-16.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a125eb1defc31870f34e576fb8beebb8/transformed/multidex-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/510594462ede98963ebec25935f11d92/transformed/jetified-gson-2.8.5.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/65d6c9f924ce876c39860326d40893fd/transformed/exifinterface-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1ca3a23bcd33bc1dd1ada0ecef426b8e/transformed/jetified-rxjava-2.0.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/be391e5b0562e1f8de03bd74d2f7dcc0/transformed/jetified-reactive-streams-1.0.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/89d5226a624611a97b1fea17ae36f097/transformed/jetified-installreferrer-1.0-api.jar</arg>
@@ -161,8 +166,10 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6b6dcacec9c8906f384367146d9af9ad/transformed/jetified-pinentryedittext-2.0.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0af9fc722394b79463eb20f95ebbc206/transformed/jetified-sdp-android-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8ed08c92ce46fc26a1fdd06013e3207e/transformed/jetified-ccp-2.5.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../Android/sdk/platforms/android-32/android.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/09872fad6a425270fa3a6ed547625133/transformed/jetified-disklrucache-4.12.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/2d95d6276dfa6c7af5b0c89ee0b6cde3/transformed/jetified-annotations-4.12.0.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
@@ -217,6 +224,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/crashlytics/res/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/crashlytics/res/debug" type="java-resource" />
@@ -234,14 +242,17 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
@@ -271,7 +282,7 @@
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:16.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10" level="project" />
@@ -303,6 +314,8 @@
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-scalars:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.zxing:core:3.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.12.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.4.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
@@ -410,5 +423,10 @@
     <orderEntry type="library" name="Gradle: com.github.skydoves:powerspinner:1.2.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.hbb20:ccp:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.jakewharton.timber:timber:4.7.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:4.12.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.12.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.exifinterface:exifinterface:1.3.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: id.zelory:compressor:3.0.1@aar" level="project" />
   </component>
 </module>

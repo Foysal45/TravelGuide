@@ -109,4 +109,6 @@
     <string name="enter_comment">Enter comment</string>
     <string name="user_profile">My Profile</string>
     <string name="select_terms_condition">Please select terms and condition</string>
+
+    <string name="cd">image</string>
 </resources>

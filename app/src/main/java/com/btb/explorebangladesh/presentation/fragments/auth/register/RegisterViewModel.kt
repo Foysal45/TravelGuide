@@ -104,23 +104,28 @@ class RegisterViewModel @Inject constructor(
 
         if (!nameResult.isSuccessful) {
             _error.postValue(nameResult.errorMessage)
+            _fieldName.postValue("name")
             return
         }
         if (!emailResult.isSuccessful) {
             _error.postValue(emailResult.errorMessage)
+            _fieldName.postValue("email")
             return
         }
         if (!countryNameResult.isSuccessful) {
             _error.postValue(countryNameResult.errorMessage)
+            _fieldName.postValue("country")
             return
         }
         if (!passwordResult.isSuccessful) {
             _error.postValue(passwordResult.errorMessage)
+            _fieldName.postValue("password")
             return
         }
 
         if (!confirmPasswordResult.isSuccessful) {
             _error.postValue(confirmPasswordResult.errorMessage)
+            _fieldName.postValue("name")
             return
         }
         val registrationRequest = RegistrationRequest(

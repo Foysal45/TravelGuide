@@ -1,21 +1,20 @@
 package com.btb.explorebangladesh.data.repository
-
-
-import android.util.Log
 import androidx.lifecycle.liveData
 import com.btb.explorebangladesh.R
 import com.btb.explorebangladesh.Resource
 import com.btb.explorebangladesh.StaticPage
 import com.btb.explorebangladesh.UiText
 import com.btb.explorebangladesh.data.mapper.*
+import com.btb.explorebangladesh.data.model.user_info.info_update.InfoUpdateRequest
+import com.btb.explorebangladesh.data.remote.request.RegistrationRequest
 import com.btb.explorebangladesh.data.remote.source.BtbDataSource
-import com.btb.explorebangladesh.domain.model.Article
-import com.btb.explorebangladesh.domain.model.Comment
 import com.btb.explorebangladesh.domain.model.District
 import com.btb.explorebangladesh.domain.repository.BtbRepository
 import com.btb.explorebangladesh.responses.*
 import com.btb.explorebangladesh.responses.ApiResponse.Companion.UNKNOWN_ERROR_CODE
 import com.btb.explorebangladesh.util.AssetManager
+import okhttp3.MultipartBody
+import okhttp3.RequestBody
 
 class BtbRepositoryImpl(
     private val assetManager: AssetManager,
@@ -173,5 +172,68 @@ class BtbRepositoryImpl(
             }
         }
     }
+
+    //function for fetch user information
+    override suspend fun getUserInformation(queryMap: Map<String, Any>)
+        = when (val response = dataSource.getUserInformation(queryMap))  {
+        is ApiEmptyResponse -> Resource.Failure(response.text, response.code)
+        is ApiErrorResponse -> Resource.Failure(response.text, response.code)
+
+        is ApiSuccessResponse -> {
+            val dto = response.body.dto
+            if (dto != null) {
+                Resource.Success(dto.toUserInfo())
+            } else {
+                Resource.Failure(
+                    UiText.StringResource(R.string.message_unknown_error),
+                    UNKNOWN_ERROR_CODE
+                )
+            }
+        }
+
+    }
+
+    //function for user profile Image upload
+    override suspend fun uploadProfileImage(imageUrl: RequestBody, fileName: RequestBody, file: MultipartBody.Part?)
+            = when (val response = dataSource.uploadProfileImage(imageUrl,fileName,file))  {
+        is ApiEmptyResponse -> Resource.Failure(response.text, response.code)
+        is ApiErrorResponse -> Resource.Failure(response.text, response.code)
+
+        is ApiSuccessResponse -> {
+            val dto = response.body
+            if (dto != null) {
+                Resource.Success(dto)
+            } else {
+                Resource.Failure(
+                    UiText.StringResource(R.string.message_unknown_error),
+                    UNKNOWN_ERROR_CODE
+                )
+            }
+        }
+
+    }
+
+
+    //function for update user information
+   /* override suspend fun employeeInformationUpdate(body: InfoUpdateRequest)
+        = when (val response = dataSource.employeeInformationUpdate(body)) {
+        is ApiEmptyResponse -> Resource.Failure(response.text, response.code)
+        is ApiErrorResponse -> Resource.Failure(response.text, response.code)
+
+        is ApiSuccessResponse -> {
+            val dto = response.body.dto
+            if (dto != null) {
+                Resource.Success(dto.payload.toUpdateUserInfo())
+            } else {
+                Resource.Failure(
+                    UiText.StringResource(
+                        R.string.message_unknown_error
+                    ),
+                    UNKNOWN_ERROR_CODE
+                )
+            }
+        }
+    }*/
+
 
 }

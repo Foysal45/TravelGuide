@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toolbar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.NavOptions
@@ -27,6 +28,7 @@ class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (requireActivity() as AppCompatActivity).supportActionBar?.setDisplayShowTitleEnabled(true)
         updateSignInOrOut()
         setupListeners()
     }
@@ -56,6 +58,10 @@ class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
             navigateToWebViewFragment(StaticPage.PrivacyPolicy)
         }
 
+        binding.cvUserProfile.setOnClickListener {
+            goToUserProfileFragment()
+        }
+
         binding.cvSignInOrOut.setOnClickListener {
             if (viewModel.hasLoggedIn()) {
                 viewModel.doLogout()
@@ -65,6 +71,10 @@ class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
             }
         }
 
+    }
+
+    private fun goToUserProfileFragment() {
+       findNavController().navigate(R.id.action_moreFragment_to_userProfileFragment)
     }
 
 

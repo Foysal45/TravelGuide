@@ -1,8 +1,11 @@
 package com.btb.explorebangladesh.data.remote.source
 
+import com.btb.explorebangladesh.data.model.user_info.info_update.InfoUpdateRequest
 import com.btb.explorebangladesh.data.remote.api.BtbApiService
+import com.btb.explorebangladesh.data.remote.request.RegistrationRequest
 import com.btb.explorebangladesh.middleware.SafeApiRequest
-
+import okhttp3.MultipartBody
+import okhttp3.RequestBody
 
 
 class BtbDataSourceImpl(
@@ -17,10 +20,7 @@ class BtbDataSourceImpl(
         apiService.getArticles(queryMap)
     }
 
-    override suspend fun getArticleDetail(
-        id: Int,
-        lang: String
-    ) = apiRequest {
+    override suspend fun getArticleDetail(id: Int, lang: String) = apiRequest {
         apiService.getArticleDetail(id, lang)
     }
 
@@ -28,17 +28,11 @@ class BtbDataSourceImpl(
         apiService.isWishListed(id)
     }
 
-    override suspend fun updateWishListed(
-        id: Int,
-        body: Map<String, Int>
-    ) = apiRequest {
+    override suspend fun updateWishListed(id: Int, body: Map<String, Int>) = apiRequest {
         apiService.updateWishListed(id, body)
     }
 
-    override suspend fun shareArticle(
-        id: Int,
-        body: Map<String, Int>
-    ) = apiRequest {
+    override suspend fun shareArticle(id: Int, body: Map<String, Int>) = apiRequest {
         apiService.shareArticle(id, body)
     }
 
@@ -46,10 +40,7 @@ class BtbDataSourceImpl(
         apiService.getWishList(queryMap)
     }
 
-    override suspend fun getStaticDetail(
-        page: String,
-        lang: String
-    ) = apiRequest {
+    override suspend fun getStaticDetail(page: String, lang: String) = apiRequest {
         apiService.getStaticDetail(page, lang)
     }
 
@@ -58,12 +49,21 @@ class BtbDataSourceImpl(
         apiService.getComments(queryMap)
     }
 
-    override suspend fun createComment(
-        comment: String,
-        articleId: Int
-    ) = apiRequest {
+    override suspend fun createComment(comment: String, articleId: Int) = apiRequest {
         apiService.createComment(comment, articleId)
     }
 
+
+    override suspend fun getUserInformation(queryMap: Map<String, Any>) = apiRequest {
+        apiService.getUserInformation(queryMap)
+    }
+
+    override suspend fun uploadProfileImage(imageUrl: RequestBody, fileName: RequestBody, file: MultipartBody.Part? ) = apiRequest {
+        apiService.uploadProfilePhoto(imageUrl, fileName, file)
+    }
+
+    /*override suspend fun employeeInformationUpdate(body: InfoUpdateRequest) = apiRequest {
+        apiService.employeeInformationUpdate(body)
+    }*/
 
 }

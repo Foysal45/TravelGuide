@@ -45,6 +45,8 @@
     <color name="colorYellow">#FFC107</color>
     <color name="colorGrey">#8C8981</color>
 
-
+    <color name="gray_200">#4De0e0e0</color>
+    <color name="black_80">#CC000000</color>
+    <color name="green">#056608</color>
 
 </resources>

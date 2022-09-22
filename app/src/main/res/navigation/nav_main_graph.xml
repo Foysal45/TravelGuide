@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main_graph"
     app:startDestination="@id/homeFragment">
 
@@ -71,6 +72,9 @@
         <action
             android:id="@+id/action_moreFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/webViewFragment"
@@ -80,6 +84,11 @@
             android:name="page"
             app:argType="com.btb.explorebangladesh.StaticPage" />
     </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.btb.explorebangladesh.user_profile.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
 
 
 </navigation>
