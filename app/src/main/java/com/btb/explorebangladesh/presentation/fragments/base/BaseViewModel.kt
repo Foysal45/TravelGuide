@@ -20,6 +20,9 @@ abstract class BaseViewModel : ViewModel() {
     val error: LiveData<UiText?>
         get() = _error
 
+    protected val _fieldName = MutableLiveData<String?>()
+    val fieldName: LiveData<String?>
+        get() = _fieldName
 
     fun updateLoading(isLoading: Boolean) {
         _isLoading.postValue(isLoading)

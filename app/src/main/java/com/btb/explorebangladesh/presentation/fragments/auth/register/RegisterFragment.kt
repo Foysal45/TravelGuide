@@ -1,6 +1,7 @@
 package com.btb.explorebangladesh.presentation.fragments.auth.register
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
@@ -17,6 +18,7 @@ import com.btb.explorebangladesh.presentation.fragments.base.BaseFragment
 import com.btb.explorebangladesh.view.hide
 import com.btb.explorebangladesh.view.isVisible
 import com.btb.explorebangladesh.view.show
+import com.hbb20.CountryCodePicker.OnCountryChangeListener
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -49,11 +51,11 @@ class RegisterFragment : BaseFragment<RegisterViewModel, FragmentRegistrationBin
                 viewModel.onRegisterEvent(RegisterFormEvent.PhoneChanged(phone))
             }
         }
-//        binding.ccp.setOnCountryChangeListener { text ->
-//            text?.toString()?.let { code ->
-//                viewModel.onRegisterEvent(RegisterFormEvent.CountryCode(code))
-//            }
-//        }
+        binding.countryCodePicker.setOnCountryChangeListener(){
+            binding.countryCodePicker.selectedCountryCode.toString().let { code ->
+                viewModel.onRegisterEvent(RegisterFormEvent.CountryCode(code))
+            }
+        }
 
         binding.etCountryName.addTextChangedListener { text ->
             text?.toString()?.let { name ->
@@ -136,8 +138,10 @@ class RegisterFragment : BaseFragment<RegisterViewModel, FragmentRegistrationBin
     }
 
     private fun showErrorMessage(error: UiText?) {
+        Log.d("error" , "error" + error.toString())
         val text = error?.asString(requireContext())
         if (binding.llRegistrationFormContainer.isVisible()) {
+
             binding.tvError.text = text
             if (!binding.tvError.isVisible()) {
                 binding.tvError.show()

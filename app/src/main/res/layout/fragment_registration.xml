@@ -127,7 +127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_38sdp"
                         android:hint="@string/phone"
-                        android:inputType="textWebEmailAddress"
+                        android:inputType="phone"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingEnd="@dimen/_10sdp"
                         app:boxBackgroundMode="none"
@@ -151,19 +151,20 @@
                     android:textColorHint="@color/colorHint" />
 
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etPassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_38sdp"
-                    android:layout_marginStart="@dimen/_16sdp"
-                    android:layout_marginTop="@dimen/_16sdp"
-                    android:layout_marginEnd="@dimen/_16sdp"
-                    android:background="@drawable/bg_edit_text_rounded"
-                    android:hint="@string/password"
-                    android:inputType="textPassword"
-                    android:paddingStart="@dimen/_10sdp"
-                    android:paddingEnd="@dimen/_10sdp"
-                    android:textColorHint="@color/colorHint" />
+
+                      <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_38sdp"
+                            android:layout_marginStart="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:layout_marginEnd="@dimen/_16sdp"
+                            android:background="@drawable/bg_edit_text_rounded"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:textColorHint="@color/colorHint" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etConfirmPassword"
