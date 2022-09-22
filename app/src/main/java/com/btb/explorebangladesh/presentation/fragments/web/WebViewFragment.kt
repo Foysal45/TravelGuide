@@ -48,4 +48,9 @@ class WebViewFragment : BaseFragment<WebViewViewModel, FragmentWebViewBinding>(
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        this.activity?.title = ""
+
+    }
 }

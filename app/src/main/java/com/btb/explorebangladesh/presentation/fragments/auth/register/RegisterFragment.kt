@@ -2,6 +2,7 @@ package com.btb.explorebangladesh.presentation.fragments.auth.register
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -9,6 +10,7 @@ import com.btb.explorebangladesh.R
 import com.btb.explorebangladesh.StaticPage
 import com.btb.explorebangladesh.UiText
 import com.btb.explorebangladesh.ValidationEvent
+import com.btb.explorebangladesh.activity.toast
 import com.btb.explorebangladesh.databinding.FragmentRegistrationBinding
 import com.btb.explorebangladesh.presentation.fragments.auth.login.LoginFragmentDirections
 import com.btb.explorebangladesh.presentation.fragments.base.BaseFragment
@@ -42,6 +44,16 @@ class RegisterFragment : BaseFragment<RegisterViewModel, FragmentRegistrationBin
                 viewModel.onRegisterEvent(RegisterFormEvent.EmailChanged(email))
             }
         }
+        binding.etPhone.addTextChangedListener { text ->
+            text?.toString()?.let { phone ->
+                viewModel.onRegisterEvent(RegisterFormEvent.PhoneChanged(phone))
+            }
+        }
+//        binding.ccp.setOnCountryChangeListener { text ->
+//            text?.toString()?.let { code ->
+//                viewModel.onRegisterEvent(RegisterFormEvent.CountryCode(code))
+//            }
+//        }
 
         binding.etCountryName.addTextChangedListener { text ->
             text?.toString()?.let { name ->
@@ -68,7 +80,11 @@ class RegisterFragment : BaseFragment<RegisterViewModel, FragmentRegistrationBin
         }
 
         binding.btnSignUp.setOnClickListener {
-            viewModel.onRegisterEvent(RegisterFormEvent.SignUp)
+            if (binding.checkBox.isChecked) {
+                viewModel.onRegisterEvent(RegisterFormEvent.SignUp)
+            }else{
+                requireActivity().toast(R.string.select_terms_condition)
+            }
         }
 
         binding.btnSubmit.setOnClickListener {

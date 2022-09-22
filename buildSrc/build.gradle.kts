@@ -11,7 +11,7 @@ repositories {
 dependencies {
     implementation("de.fayard.refreshVersions:refreshVersions:0.40.1")
     // android gradle plugin, required by custom plugin
-    implementation("com.android.tools.build:gradle:7.2.2")
+    implementation("com.android.tools.build:gradle:7.3.0")
 //    implementation(kotlin("gradle-plugin", "1.7.10"))
 
 //    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10")

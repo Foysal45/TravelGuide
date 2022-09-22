@@ -13,7 +13,7 @@ buildscript {
 
     dependencies {
 
-        classpath("com.android.tools.build:gradle:7.2.2")
+        classpath("com.android.tools.build:gradle:7.3.0")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
 
         classpath(Google.playServicesGradlePlugin) // Google Services plugin
@@ -28,6 +28,8 @@ buildscript {
 plugins {
     // other plugins...
     id("com.google.dagger.hilt.android") version("2.43.2") apply false
+   // id("org.jetbrains.kotlin.android") version "1.7.10" apply false
+    // id("org.jetbrains.kotlin.android") version "1.7.10" apply false
 }
 
 allprojects {

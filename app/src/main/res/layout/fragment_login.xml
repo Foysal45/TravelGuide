@@ -36,7 +36,7 @@
         android:id="@+id/cvLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginTop="@dimen/_40sdp"
         app:cardCornerRadius="@dimen/_8sdp"
         app:layout_constraintEnd_toEndOf="@+id/ivAppLogo"
         app:layout_constraintStart_toStartOf="@+id/ivAppLogo"
@@ -328,6 +328,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
+                android:visibility="gone"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textview.MaterialTextView

@@ -18,7 +18,6 @@ class ExploreViewModel @Inject constructor(
     private val languageProvider: LanguageProvider
 ) : BaseViewModel() {
 
-
     private val _articles = MutableLiveData<List<Article>>()
     val articles: LiveData<List<Article>>
         get() = _articles
@@ -33,7 +32,8 @@ class ExploreViewModel @Inject constructor(
                     "title" to "",
                     "categoryId" to "",
                     "page" to 1,
-                    "limit" to 10000
+                    "limit" to 50,
+                    "popularRating" to true
                 )
             )) {
                 is Resource.Failure -> {

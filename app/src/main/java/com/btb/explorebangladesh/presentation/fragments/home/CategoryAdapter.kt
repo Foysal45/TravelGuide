@@ -35,7 +35,7 @@ class CategoryAdapter @Inject constructor(
         holder.binding.apply {
             val iconUrl = category.medias.toIconUrl()
             ivIcon.load(iconUrl)
-//            tvName.text = category.title
+           tvName.text = category.title
             root.setOnClickListener { view ->
                 listener?.let { click ->
                     click(view, category)

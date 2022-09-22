@@ -101,4 +101,6 @@ class MoreFragment : BaseFragment<MainViewModel, FragmentMoreBinding>(
         this.activity?.title = getString(R.string.more)
     }
 
+
+
 }

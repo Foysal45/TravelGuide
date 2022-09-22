@@ -18,6 +18,7 @@ import com.btb.explorebangladesh.domain.model.ArticleDetail
 import com.btb.explorebangladesh.domain.model.Comment
 import com.btb.explorebangladesh.domain.model.Section
 import com.btb.explorebangladesh.presentation.activities.auth.AuthActivity
+import com.btb.explorebangladesh.presentation.activities.youtube_player.YouTubePlayerActivity
 import com.btb.explorebangladesh.presentation.fragments.base.BaseFragment
 import com.btb.explorebangladesh.view.hide
 import com.btb.explorebangladesh.view.show
@@ -68,6 +69,8 @@ class DetailFragment : BaseFragment<DetailViewModel, FragmentDetailBinding>(
 //            googleMap = it
 //            updatePosition()
 //        }
+
+
 
         setupRecyclerView()
         fetchArticleInfo()
@@ -147,9 +150,6 @@ class DetailFragment : BaseFragment<DetailViewModel, FragmentDetailBinding>(
     }
 
     private fun setupListeners() {
-        binding.ivPlay.setOnClickListener {
-            // Play video
-        }
 
         binding.ivShare.setOnClickListener {
             viewModel.shareArticle(articleId)
@@ -247,6 +247,18 @@ class DetailFragment : BaseFragment<DetailViewModel, FragmentDetailBinding>(
     }
 
     private fun updateImageTitleAndSubtitle(detail: ArticleDetail) {
+
+        binding.ivPlay.setOnClickListener {
+            // Play video
+            startActivity(
+                Intent(
+                    activity,
+                    YouTubePlayerActivity::class.java
+                ).putExtra("url", detail.medias.first().source)
+            )
+        }
+
+
         binding.tvTitle.text = detail.sections.firstOrNull()?.title
         binding.tvSubTitle.text = detail.address
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_main">
@@ -15,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_arrow_back" />
-
 
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -92,11 +92,49 @@
                     android:layout_marginEnd="@dimen/_16sdp"
                     android:background="@drawable/bg_edit_text_rounded"
                     android:drawablePadding="@dimen/_10sdp"
-                    android:hint="@string/phone_or_email_id"
+                    android:hint="@string/email_id"
                     android:inputType="textWebEmailAddress"
                     android:paddingStart="@dimen/_10sdp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:textColorHint="@color/colorHint" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:drawablePadding="@dimen/_10sdp"
+                    app:boxBackgroundMode="none"
+                    android:background="@drawable/bg_edit_text_rounded"
+                    >
+
+                    <com.hbb20.CountryCodePicker
+                        app:ccp_hintExampleNumber="true"
+                        android:id="@+id/country_code_picker"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:ccp_autoDetectCountry="true"
+                        >
+
+                    </com.hbb20.CountryCodePicker>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_38sdp"
+                        android:hint="@string/phone"
+                        android:inputType="textWebEmailAddress"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        app:boxBackgroundMode="none"
+                        android:background="@null"
+                        android:textColorHint="@color/colorHint" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etCountryName"
@@ -155,6 +193,30 @@
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_16sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:checked="false"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvTerms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/terms"
+                        android:textSize="@dimen/_10sdp" />
+                </LinearLayout>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnSignUp"
@@ -173,16 +235,6 @@
                     android:textAllCaps="true"
                     android:textColor="@color/colorGreen"
                     android:textSize="@dimen/_16sdp" />
-
-
-                <com.google.android.material.textview.MaterialTextView
-                    android:id="@+id/tvTerms"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_16sdp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/terms"
-                    android:textSize="@dimen/_10sdp" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>

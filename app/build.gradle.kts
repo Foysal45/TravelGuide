@@ -109,6 +109,9 @@ setupCommonDependencies()
 dependencies {
 
 
+    implementation("androidx.appcompat:appcompat:1.4.1")
+    implementation("com.google.android.material:material:1.4.+")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
     useNavigation()
     useRoom()
     useHilt()
@@ -165,5 +168,7 @@ dependencies {
 
     implementation(DepUtils.sdpAndroid)
     implementation(DepUtils.spinner)
+    implementation(DepUtils.youTubePlayer)
+    implementation(DepUtils.countryCodePicker)
 
 }

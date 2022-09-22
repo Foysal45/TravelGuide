@@ -1,12 +1,8 @@
 package com.btb.explorebangladesh.data.remote.source
 
-import com.btb.explorebangladesh.data.model.CommentDto
 import com.btb.explorebangladesh.data.remote.api.BtbApiService
-import com.btb.explorebangladesh.data.remote.responses.CommentData
-import com.btb.explorebangladesh.data.remote.responses.StaticData
 import com.btb.explorebangladesh.middleware.SafeApiRequest
-import com.btb.explorebangladesh.responses.ApiResponse
-import com.btb.explorebangladesh.responses.ResponseDTO
+
 
 
 class BtbDataSourceImpl(

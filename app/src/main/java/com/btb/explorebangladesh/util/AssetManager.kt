@@ -23,5 +23,4 @@ class AssetManager @Inject constructor(
             emptyList()
         }
     }
-
 }

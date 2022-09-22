@@ -17,7 +17,8 @@ object DepUtils {
 
     const val sdpAndroid = "com.intuit.sdp:sdp-android:_"
     const val spinner = "com.github.skydoves:powerspinner:_"
-
+    const val youTubePlayer = "com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0"
+    const val countryCodePicker = "com.hbb20:ccp:2.5.0"
 
 
 }

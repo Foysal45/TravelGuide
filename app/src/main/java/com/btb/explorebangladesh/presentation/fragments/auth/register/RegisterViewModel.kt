@@ -26,7 +26,11 @@ class RegisterViewModel @Inject constructor(
 
     private val name = MutableLiveData<String>()
     private val email = MutableLiveData<String>()
+    private val phone = MutableLiveData<String>()
+    private val countryCode = MutableLiveData<String>()
+
     private val countryName = MutableLiveData<String>()
+
     private val password = MutableLiveData<String>()
     private val confirmPassword = MutableLiveData<String>()
 
@@ -53,6 +57,12 @@ class RegisterViewModel @Inject constructor(
             is RegisterFormEvent.EmailChanged -> {
                 email.value = event.email
             }
+            is RegisterFormEvent.PhoneChanged -> {
+                phone.value = event.phone
+            }
+            is RegisterFormEvent.CountryCode -> {
+                countryCode.value = event.code
+            }
             is RegisterFormEvent.CountryChanged -> {
                 countryName.value = event.country
             }
@@ -78,6 +88,7 @@ class RegisterViewModel @Inject constructor(
     private fun doRegister() {
         val name = name.value ?: ""
         val email = email.value ?: ""
+        val phone = countryCode.value ?: ""+phone.value ?: ""
         val countryName = countryName.value ?: ""
         val password = password.value ?: ""
         val confirmPassword = confirmPassword.value ?: ""
@@ -114,7 +125,7 @@ class RegisterViewModel @Inject constructor(
         }
         val registrationRequest = RegistrationRequest(
             fullName = name,
-            phoneNumber = "",
+            phoneNumber = phone,
             country = countryName,
             email = email,
             password = password

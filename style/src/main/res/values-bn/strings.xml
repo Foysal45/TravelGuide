@@ -107,4 +107,6 @@
     <string name="comment">Comment</string>
     <string name="write_your_comment">Write your comment here</string>
     <string name="enter_comment">Enter comment</string>
+    <string name="user_profile">ব্যবহারকারীর প্রোফাইল</string>
+    <string name="select_terms_condition">শর্তাবলী এবং শর্তাবলী নির্বাচন করুন</string>
 </resources>
