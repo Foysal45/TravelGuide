@@ -67,7 +67,7 @@ class UserProfileFragment : BaseFragment<UserInfoViewModel, FragmentUserProfileB
             binding.userNationalityEdit.setText(userInfo.nationality)
             binding.userAddressEdit.setText(userInfo.address)
             binding.userEmailEdit.setText(userInfo.email)
-            Toast.makeText(activity, "name = ${userInfo.fullName}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity, "userName = ${userInfo.fullName}", Toast.LENGTH_SHORT).show()
 
             if (binding.userEmailEdit.text != null) {
                 binding.userEmailEdit.isClickable = false
